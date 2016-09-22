@@ -14,6 +14,8 @@ namespace CS2
             int intNumber2;
             int intSum;
 
+            //test
+
             Console.WriteLine("CS2 Jim Harris \n");
 
             Console.Write("Enter first integer: "); //prompt
