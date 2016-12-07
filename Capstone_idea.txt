@@ -1,0 +1,21 @@
+Develop a 'Internet of Things' issue tracker for devices at my home.
+
+A SQL database consisting of the following tables would be implemented:
+
+    * HomeUser (Fields:  ID, Name, Relation, Age) 
+    * Things (Fields:  ID, Description, IP Address, MAC Address, OS)
+    * Issues (Fields:  ID, Issue Description, State, HomeUser, Thing, Resolution Comment)
+
+The Issues table would be dynamic where entries can be modified (or added) through a Windows Form.  A static validator class will be implemented for validating GUI elements.
+Data access classes will be implemented for queries and updates of SQL tables. (Generic collections used for holding data)
+
+Issue viewing options:
+
+    * Open issues can be displayed in a dedicated Windows Form. LINQ to be used to sort for only open issues.
+    * All issues (open or closed) can be displayed in a dedicated Windows Form containing a 'report viewer' control element.
+
+A class inheritance scheme will be implemented for the 'Things'.  
+The base class will be called 'Thing' which is an abstract class.  The following classes will be child classes of 'Thing':  'PC', 'Tablet', 'Phone', 'StreamingDevice', 'RaspberryPi'.
+An overridden method in each child class for displaying 'Thing' information in Windows Form viewer will be implemented.  
+
+A web site will be developed to allow detection if a Thing is online by pinging device.  A text box will allow entry of IP address and a ping will be sent to device after pressing a button.
