@@ -89,7 +89,7 @@
             this.ClientSize = new System.Drawing.Size(694, 451);
             this.Controls.Add(this.reportViewer1);
             this.Name = "FormReportViewer";
-            this.Text = "Issue Report By User";
+            this.Text = "Issue Report By User - Capstone Project";
             this.Load += new System.EventHandler(this.FormReportViewer_Load);
             ((System.ComponentModel.ISupportInitialize)(this.reportViewerBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.InternetOfThingsDataSet)).EndInit();

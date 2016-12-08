@@ -35,6 +35,9 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <br />
         <asp:Label ID="LabelResponse" runat="server"></asp:Label>
+        <p>
+            <asp:Image ID="Image1" runat="server" Height="261px" ImageUrl="~/avatar_mid_1345805197.png" Width="264px" />
+        </p>
     </form>
 </body>
 </html>
